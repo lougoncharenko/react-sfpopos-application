@@ -1,0 +1,9 @@
+.PropertySpace {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .PropertySpace > img {
+    width: 100%;
+    height: auto;
+  }

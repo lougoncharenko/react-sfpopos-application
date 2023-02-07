@@ -1,8 +1,8 @@
-
+import '../styles/PropertySpace.css'
 function POPOSSpace(props) {
     const { price, image, address, description } = props
     return (
-      <div>
+      <div className="PropertySpace">
         <img
           src={image}
           width="300"
