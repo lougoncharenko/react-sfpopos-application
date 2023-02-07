@@ -1,6 +1,6 @@
 import './App.css';
 import Title from './components/Title';
-import POPOSList from './components/POPOSList';
+import POPOSList from './components/PropertyList';
 
 
 function App() {
