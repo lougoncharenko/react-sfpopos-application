@@ -1,6 +1,7 @@
-import POPOSSpace from "./PropertySpace"
+import React from "react"
+import POPOSSpace from "../components/PropertySpace"
 import '../styles/PropertyList.css'
-import data from './proprty-data.json'
+import data from '../components/proprty-data.json'
 
 function POPOSList() {
   const properties = data.map(( {price, address, image, description} ) => {
