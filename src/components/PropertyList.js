@@ -3,13 +3,13 @@ import '../styles/PropertyList.css'
 import data from './proprty-data.json'
 
 function POPOSList() {
-  const properties = data.map((obj) => {
+  const properties = data.map(( {price, address, image, description} ) => {
     return (
       <POPOSSpace
-        price={obj.price}
-        address={obj.address}
-        image={obj.image}
-        description = {obj.description}
+        price={price}
+        address={address}
+        image={image}
+        description = {description}
       />
     )
   })
