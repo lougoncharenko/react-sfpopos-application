@@ -11,8 +11,10 @@ function Title() {
         </div>
         <div>
         <div>
-          <CustomLink to="/">Home</CustomLink>
-          <CustomLink to="/about">About</CustomLink>
+          <CustomLink className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" } 
+          to="/">Home</CustomLink>
+          <CustomLink className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" } 
+          to="/about">About</CustomLink>
         </div>
         </div>
       </div>
