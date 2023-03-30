@@ -22,6 +22,7 @@ export default function Navbar() {
         <section className="nav-section">
            <CustomLink to="/">Home</CustomLink>
            <CustomLink to="/about">About</CustomLink>
+           <CustomLink to="/newsletter">Sign Up</CustomLink>
         </section>
          
       </nav>
