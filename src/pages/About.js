@@ -1,6 +1,6 @@
 import React from "react";
 
-function ABOUTPAGE() {
+function About() {
  
       return (
         <div className="property-container">
@@ -15,4 +15,4 @@ function ABOUTPAGE() {
       )
     }
     
-    export default ABOUTPAGE
+    export default About

@@ -1,17 +1,22 @@
 import './App.css';
-import Title from './components/Title';
-import POPOSList from './pages/PropertyList';
+import React, {useState} from 'react';
+import Home from './pages/home';
+import Navbar from './components/Navbar';
+import DetailCard from './components/DetailCard';
+import About from './pages/about';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import ABOUTPAGE from './pages/About';
+
 
 function App() {
+  const [properyDetail, setPropertyDetail] = useState({});
   return (
     <div className="App">
-      <Title />
+      <Navbar />
       <div className="container">
       <Routes>       
-         <Route path="/" element={<POPOSList />} />         
-         <Route path="/about" element={<ABOUTPAGE />} />
+         <Route path="/" element={<Home setPropertyDetail={setPropertyDetail}/>} />         
+         <Route path="/about" element={<About />} />
+         <Route path="/property/:id" element={<DetailCard propertyDetail={properyDetail} />} />
       </Routes>
      </div>
     </div>
