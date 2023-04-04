@@ -37,3 +37,5 @@ Grandpa Joe is looking to retire and move down to San Francisco from Minnesota t
 
 
 ## Wire frames
+[Elite Homes Wireframe.pdf](https://github.com/lougoncharenko/react-sfpopos-application/files/11150597/Elite.Homes.Wireframe.pdf)
+
