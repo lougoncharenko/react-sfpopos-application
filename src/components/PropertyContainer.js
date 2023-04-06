@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState} from 'react';
 import PropertyCard from './PropertyCard';
 import AppBar from '@mui/material/AppBar';
 import CssBaseline from '@mui/material/CssBaseline'
