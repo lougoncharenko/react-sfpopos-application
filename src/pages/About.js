@@ -1,17 +1,13 @@
 import React from "react";
+import Banner from "../components/Banner/Banner";
 
 function About() {
  
       return (
-        <div className="property-container">
-            <h1>About SFPOPOS</h1>
-            <p>POPOS are publicly accessible spaces in
-                forms of plazas, terraces, atriums, small
-                parks, and even snippets which are provided
-                and maintained by private developers. In San
-                Francisco, POPOS mostly appear in the Downtown
-                office district area.</p>
-        </div>
+        <>
+        <Banner />
+        </>
+  
       )
     }
     

@@ -58,7 +58,7 @@ const Header = () => {
               <div className="navigation">
                 <ul className="menu">
                   <li className="nav_item">
-                    <NavLink to='/home'>Home</NavLink>
+                    <NavLink to='/'>Home</NavLink>
                   </li>
                   <li className="nav_item">
                     <NavLink to='/about'>About</NavLink>
