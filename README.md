@@ -37,3 +37,15 @@ Grandpa Joe is looking to retire and move down to San Francisco from Minnesota t
 
 
 ## Wire frames
+
+Website Version:
+<img width="892" alt="Screen Shot 2023-04-04 at 12 08 52 PM" src="https://user-images.githubusercontent.com/93098869/229852640-a4f4845d-daa2-4d7e-a35f-772096d4eec3.png">
+
+Mobile Version:
+</br>
+<img width="792" alt="Screen Shot 2023-04-04 at 12 09 08 PM" src="https://user-images.githubusercontent.com/93098869/229852706-1db576cd-6911-4d50-9251-84cd71cb2396.png">
+
+                                                                  
+
+
+
