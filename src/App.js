@@ -15,7 +15,7 @@ function App() {
       <Header />
       <div className="container">
       <Routes>       
-         <Route path="/home" element={<Home setPropertyDetail={setPropertyDetail}/>} />         
+         <Route path="/" element={<Home setPropertyDetail={setPropertyDetail}/>} />         
          <Route path="/about" element={<About />} />
          <Route path="/newsletter" element={<Newsletter />} />
          <Route path="/property/:id" element={<DetailCard propertyDetail={properyDetail} />} />
