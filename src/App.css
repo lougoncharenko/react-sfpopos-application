@@ -38,3 +38,19 @@ section{
 .benefit_heading{
   color: black !important;
 }
+
+.about-title{
+  color: black !important;
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.about-section {
+  padding: 25px;
+  display: flex;
+}
+
+.about-col{
+  padding: 10px;
+}

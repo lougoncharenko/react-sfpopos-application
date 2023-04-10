@@ -5,6 +5,7 @@ import DetailCard from './components/DetailCard';
 import About from './pages/about';
 import Newsletter from './pages/newsletter';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -21,6 +22,8 @@ function App() {
          <Route path="/property/:id" element={<DetailCard propertyDetail={properyDetail} />} />
       </Routes>
      </div>
+
+     <Footer />
     </div>
   );
 }
