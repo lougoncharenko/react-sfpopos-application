@@ -5,7 +5,6 @@ function Newsletter() {
  
       return (
         <div >
-            <h1>Sign up for the newsletter</h1>
             <Form />
         </div>
       )
