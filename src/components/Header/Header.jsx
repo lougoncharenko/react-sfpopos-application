@@ -49,7 +49,8 @@ const Header = () => {
 
         <div className="nav_wrapper">
             <div className="logo">
-              <img src='https://img.freepik.com/premium-vector/house-real-estate-logo_7169-95.jpg' alt="logo" />
+              <img src='https://img.freepik.com/premium-vector/house-real-estate-logo_7169-95.jpg' 
+              alt="elite home official logo" />
               <div className='logo_headers'>
                 <h1>Elite Homes</h1>
                 <p>Since 2011</p>
