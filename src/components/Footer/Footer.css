@@ -13,8 +13,11 @@
 
 .footer-row{
     display: flex;
+    padding: 15px;
 }
-
+.footer-heading {
+    color: white !important
+}
 h1{
     color:white !important;
 }

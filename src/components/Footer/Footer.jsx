@@ -10,14 +10,17 @@ const Footer = () => {
         <Row className='footer-row'>
           <Col lg="4">
           <div className="logo">
-              <img id="logo" src="https://img.freepik.com/premium-vector/house-real-estate-logo_7169-95.jpg" alt="logo" />
+              <img id="logo" 
+              src="https://img.freepik.com/premium-vector/house-real-estate-logo_7169-95.jpg" 
+              alt="elite home official logo" />
               <div>
-                <h1 className="text-white">Elite Homes</h1>
+                <h2 className="footer-heading">Elite Homes</h2>
               </div>
             </div>
             <p className="footer_text mt-4">
-              Find your perfect forever home in the San Francisco area with Elite Homes!
-            </p>
+              Find your perfect forever home </p>
+              <p className="footer_text mt-4">in the San Francisco area with </p>
+              <p className="footer_text mt-4">Elite Homes!</p>
           </Col>
           <Col lg="3">
             <div className="footer_quick-links">
