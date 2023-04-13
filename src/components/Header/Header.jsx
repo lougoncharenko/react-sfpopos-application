@@ -10,7 +10,7 @@ const Header = () => {
 
     const MobileLinks = () => {
         return (
-            <div className="mobile_container_nav_links">
+            <section className="mobile_container_nav_links">
             <ul>
                   <li className="nav_item">
                     <NavLink to='/'>Home</NavLink>
@@ -22,7 +22,7 @@ const Header = () => {
                     <NavLink to='/newsletter'>Newsletter</NavLink>
                   </li>
                 </ul>
-            </div>  
+            </section>  
         )
     }
 
