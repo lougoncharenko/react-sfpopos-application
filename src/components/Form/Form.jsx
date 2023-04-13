@@ -37,7 +37,7 @@ function Form() {
     <form onSubmit={(e) => {handleSubmit(e)}}>
     <h2> Sign up for the newsletter</h2>
     <div className="img-container">
-        <img src="https://www.hiusa.org/wp-content/uploads/2020/04/Alamo-Square-Park-SF-Holger-Link-unsplash-1000x550-compressor.jpg"  alt='error'/>
+        <img className="form-img"src="https://www.hiusa.org/wp-content/uploads/2020/04/Alamo-Square-Park-SF-Holger-Link-unsplash-1000x550-compressor.jpg"  alt='error'/>
     </div>
         <label >
           Name:
