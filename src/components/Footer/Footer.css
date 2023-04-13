@@ -1,7 +1,7 @@
 .link_list_item{
     display:flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .footer{
@@ -15,11 +15,21 @@
     display: flex;
     padding: 15px;
 }
+
+.footer-section{
+    margin: 15px;
+}
 .footer-heading {
     color: white !important
 }
-h1{
+
+li {
+    font-size: 20px;
+}
+
+h2{
     color:white !important;
+    font-size: 20px !important;
 }
 
 #logo{
