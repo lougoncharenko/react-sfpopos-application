@@ -34,6 +34,8 @@ h2{
 
 #logo{
     background-color: white !important;
+    height: 20px !important;;
+    width: 20px !important;
 }
 
 .footer_text{

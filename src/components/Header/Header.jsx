@@ -30,8 +30,8 @@ const Header = () => {
     <header className='header'>
       <Container>
         <Row>
-        <div className="mobile_container">
-            <div className="mobile_menu_header">
+        <section className="mobile_container">
+            <section className="mobile_menu_header">
             <svg 
             xmlns="http://www.w3.org/2000/svg" 
             viewBox="0 0 24 24" 
@@ -40,23 +40,23 @@ const Header = () => {
             onClick={handleMobileMenu}>
                 <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z" fill="#000"></path>
             </svg>
-            <div className='logo_headers'>
+            <section className='logo_headers'>
                 <h1>Elite Homes</h1>
-              </div>
-            </div>
+              </section>
+            </section>
             {showMobileLinks ? <MobileLinks/>  : null}
-            </div>
+            </section>
 
-        <div className="nav_wrapper">
-            <div className="logo">
+        <section className="nav_wrapper">
+            <section className="logo">
               <img src='https://img.freepik.com/premium-vector/house-real-estate-logo_7169-95.jpg' 
               alt="elite home official logo" />
-              <div className='logo_headers'>
+              <section className='logo_headers'>
                 <h1>Elite Homes</h1>
                 <p>Since 2011</p>
-              </div>
-            </div>
-              <div className="navigation">
+              </section>
+            </section>
+              <section className="navigation">
                 <ul className="menu">
                   <li className="nav_item">
                     <NavLink to='/'>Home</NavLink>
@@ -68,8 +68,8 @@ const Header = () => {
                     <NavLink to='/newsletter'>Newsletter</NavLink>
                   </li>
                 </ul>
-              </div>
-          </div>
+              </section>
+          </section>
         </Row>
       </Container>
     </header>
