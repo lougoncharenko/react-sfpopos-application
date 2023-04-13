@@ -44,9 +44,6 @@ function PropertyCard({data, inputText, setPropertyDetail}) {
                     <Typography>
                     {data.description}
                     </Typography>
-                    <Typography>
-                      ${data.cost}
-                    </Typography>
                     <div className='button-container'>
                     <Link to={`/property/${data.id}`}>
                         <button 
