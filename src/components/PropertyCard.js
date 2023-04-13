@@ -32,7 +32,7 @@ function PropertyCard({data, inputText, setPropertyDetail}) {
                       pt: '5.25%',
                     }}
                     image={data.image}
-                    alt="random"
+                    alt={data.alt}
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
