@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <Container>
         <h1 className='about-title'> About Elite Homes</h1>
-    <Row className='about-section'>
+    <Row className='about-section' role="row">
       
       <Col lg="3" className='about-col'>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam fuga quo ipsum, pariatur perferendis quae?</p>

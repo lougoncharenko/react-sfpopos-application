@@ -6,8 +6,8 @@ import './Footer.css'
 const Footer = () => {
   return (
     <footer className="footer">
-      <Container>
-        <Row className='footer-row'>
+      <Container role="main">
+        <Row className='footer-row' role="row">
           <Col className="footer-section" lg="4">
           <div className="logo" role="region" >
               <img id="logo" 
