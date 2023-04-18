@@ -10,15 +10,15 @@ const Header = () => {
 
     const MobileLinks = () => {
         return (
-            <section className="mobile_container_nav_links">
+            <section className="mobile_container_nav_links" role="navigation" aria-describedby="mobile_container_nav_links">
             <ul>
-                  <li className="nav_item">
+                  <li className="nav_item" aria-describedby="nav_item">
                     <NavLink to='/'>Home</NavLink>
                   </li>
-                  <li className="nav_item">
+                  <li className="nav_item" aria-describedby="nav_item">
                     <NavLink to='/about'>About</NavLink>
                   </li>
-                  <li className="nav_item">
+                  <li className="nav_item" aria-describedby="nav_item">
                     <NavLink to='/newsletter'>Newsletter</NavLink>
                   </li>
                 </ul>
@@ -30,7 +30,7 @@ const Header = () => {
     <header className='header'>
       <Container>
         <Row>
-        <section className="mobile_container">
+        <section className="mobile_container" role="navigation">
             <section className="mobile_menu_header">
             <svg 
             xmlns="http://www.w3.org/2000/svg" 
