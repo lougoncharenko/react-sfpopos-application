@@ -10,7 +10,7 @@ function SearchBar({setInputText}) {
       };
       return (
         <section className="search-parent">
-            <div className="search-child">
+            <section className="search-child">
             <TextField
               id="outlined-basic"
               onChange={inputHandler}
@@ -18,7 +18,7 @@ function SearchBar({setInputText}) {
               fullWidth
               label="Search for property"
             />
-            </div>
+            </section>
         </section>
        
       );

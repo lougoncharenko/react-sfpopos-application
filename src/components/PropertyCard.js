@@ -44,7 +44,7 @@ function PropertyCard({data, inputText, setPropertyDetail}) {
                     <Typography>
                     {data.description}
                     </Typography>
-                    <div className='button-container'>
+                    <section className='button-container'>
                     <Link to={`/property/${data.id}`}>
                         <button 
                         className='add'
@@ -55,7 +55,7 @@ function PropertyCard({data, inputText, setPropertyDetail}) {
                         > Click to view details
                         </button>
                     </Link>
-                </div>
+                </section>
                   </CardContent>
                 </Card>
               </Grid>

@@ -32,13 +32,13 @@ function Form() {
  
     }
   return (
-    <div className="form-section">
+    <section className="form-section">
     <header className="form-header">
     <form onSubmit={(e) => {handleSubmit(e)}}>
     <h2> Sign up for the newsletter</h2>
-    <div className="img-container">
+    <section className="img-container">
         <img className="form-img"src="https://www.hiusa.org/wp-content/uploads/2020/04/Alamo-Square-Park-SF-Holger-Link-unsplash-1000x550-compressor.jpg"  alt='error'/>
-    </div>
+    </section>
         <label >
           Name:
         </label><br/>
@@ -58,7 +58,7 @@ function Form() {
         <input type="submit" value="Submit"/>
       </form>
     </header>
-    </div>
+    </section>
   );
 }
  
